@@ -85,7 +85,7 @@ namespace PureLayout
         // -(NSArray *)autoPinEdgesToSuperviewMargins;
         [Export("autoPinEdgesToSuperviewMargins")]
         //        [Verify(MethodToProperty), Verify(StronglyTypedNSArray)]
-        NSLayoutConstraint[] GetAutoPinEdgesToSuperviewMargins();
+        NSLayoutConstraint[] AutoPinEdgesToSuperviewMargins();
 
         // -(NSArray *)autoPinEdgesToSuperviewMarginsExcludingEdge:(ALEdge)edge;
         [Export("autoPinEdgesToSuperviewMarginsExcludingEdge:")]
